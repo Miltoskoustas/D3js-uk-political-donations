@@ -44,7 +44,7 @@ var comma = d3.format(",.0f");
 
 function transition(name) {
 	if (name === "all-donations") {
-		click.play;
+		click.play();
 		$("#initial-content").fadeIn(250);
 		$("#value-scale").fadeIn(1000);
 		$("#view-donor-type").fadeOut(250);
