@@ -152,7 +152,7 @@ circle.active {
     margin: 0.2em;
 }
 .lab {
-    fill: #645394;
+    fill: rgba(100, 83, 148, 1);
 }
 .lib {
     fill: #BCE22F;
